@@ -1,0 +1,30 @@
+{
+  "name": "desafio-sprint02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/washington-wj/api-CRUD.git"
+  },
+  "author": "washington jose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/washington-wj/api-CRUD/issues"
+  },
+  "homepage": "https://github.com/washington-wj/api-CRUD#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "config": "^3.3.6",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^7.0.0-alpha.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
