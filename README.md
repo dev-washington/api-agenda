@@ -9,8 +9,11 @@ Nosso primeiro desafio do programa de bolsas, será a criação de uma API cuja 
 
 - Rotas
 **POST para cadastrar os dados**
+
 **GET para consultar os dados**
+
 **PUT para atualizar os dados**
+
 **DELETE para deletar os dados**
 
 - Os Campos abaixo
