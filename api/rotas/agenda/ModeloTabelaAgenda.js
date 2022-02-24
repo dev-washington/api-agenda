@@ -1,13 +1,17 @@
 const sequelize = require('sequelize')
-const instancia = require('../../banco-de-dados')
+const instancia = require('../../banco-de-dados/criarTabela')
 
 const colunas = {
-    titulo:{
+    title:{
         type: sequelize.STRING,
         allowNull: false
     },
-    descricao:{
+    description:{
         type:sequelize.STRING,
+        allowNull: false
+    },
+    task:{
+        type:sequelize.ARRAY,
         allowNull: false
     }
 }

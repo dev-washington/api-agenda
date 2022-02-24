@@ -1,11 +1,11 @@
 const roteador = require('express').Router()
 const TabelaAgenda = require('./agenda/TabelaAgenda')
 
-roteador.get('/', async (requisicao, reposta) => {
+roteador.get('/', async (requisicao, resposta) => {
 
 try{    
     const resultado = await TabelaAgenda.listar()
-    reposta.send(
+    resposta.send(
         JSON.stringify(resultado)
     )
 } catch (erro) {

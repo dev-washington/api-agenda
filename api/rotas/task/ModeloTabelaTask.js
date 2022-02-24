@@ -1,5 +1,5 @@
 const sequelize = require('sequelize')
-const instancia = require('../../banco-de-dados')
+const instancia = require('../../banco-de-dados/criarTabela')
 
 const colunas = {
     titulo:{

@@ -2,7 +2,7 @@
     "mysql": {
         "banco-de-dados": "trello",
         "usuario": "root",
-        "senha": "root",
+        "senha": "123456",
         "host": "172.0.0.1"
     },
 
