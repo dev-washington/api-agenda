@@ -8,12 +8,13 @@ Nosso primeiro desafio do programa de bolsas, será a criação de uma API cuja 
 *A API consiste em gerenciar 4 rotas*
 
 - Rotas
+&nbsp;
 **POST para cadastrar os dados**
-
+&nbsp;
 **GET para consultar os dados**
-
+&nbsp;
 **PUT para atualizar os dados**
-
+&nbsp;
 **DELETE para deletar os dados**
 
 - Os Campos abaixo
