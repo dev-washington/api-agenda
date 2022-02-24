@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/washington-wj/api-CRUD.git"
+    "url": "git+https://github.com/washington-wj/api-agenda.git"
   },
   "author": "washington jose",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/washington-wj/api-CRUD/issues"
+    "url": "https://github.com/washington-wj/api-agenda/issues"
   },
-  "homepage": "https://github.com/washington-wj/api-CRUD#readme",
+  "homepage": "https://github.com/washington-wj/api-agenda#readme",
   "dependencies": {
     "body-parser": "^1.19.1",
     "config": "^3.3.6",
